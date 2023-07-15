@@ -24,6 +24,7 @@ main {
     height: 100vh;
     background-image: url(./resources/ivana-cajina-HDd-NQ_AMNQ-unsplash.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
@@ -67,12 +68,8 @@ blockquote {
     border-radius: .5rem;
     align-self: flex-end;
     transform: rotate(-1.125deg);
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.1)), url(./resources/cake.gif);
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, contain;
-    background-position: center, center;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.1));
 }
-
 #wish {
     font-size: 2.5rem;
     font-family: norse;
